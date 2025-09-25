@@ -1,0 +1,333 @@
+{
+  "systemUnit": {
+    "title": "Системный блок",
+    "items": [
+      {
+        "name": "Процессор",
+        "model": "Intel Core i5-12400F",
+        "price": 13499,
+        "manufacturer": "Intel",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Видеокарта",
+        "model": "Palit GeForce RTX 3070 Ti GameRock OC",
+        "price": 56999,
+        "link": "https://www.dns-shop.ru/product/5697ec82ae092ff1/videokarta-palit-geforce-rtx-3070-ti-gamerock-oc-ned307tt19p2-1047g/",
+        "manufacturer": "Palit",
+        "purchasedAt": "2022-11-21"
+      },
+      {
+        "name": "Материнская плата",
+        "model": "MAG B660M Bazooka DDR4",
+        "price": 14000,
+        "manufacturer": "MSI",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Память",
+        "model": "Team Group T-Force Vulkan Z [TLZGD48G3200HC16C01] 8+8=16 GB DDR4-3200",
+        "price": 6935,
+        "manufacturer": "XFORCE",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Память",
+        "model": "Team Group T-Force Vulkan Z [TLZGD48G3200HC16C01] 8 GB DDR4-3200",
+        "price": 2550,
+        "manufacturer": "XFORCE",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Накопители",
+        "model": "256 DEXP L3 + 256 INTEL + 2 Tb BaseTech A400",
+        "price": 17597,
+        "manufacturer": "DEXP+Intel",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "HDD database",
+        "model": "WD Blue 1TB",
+        "price": 4701,
+        "manufacturer": "WD",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "HDD database",
+        "model": "Toshiba 4TB",
+        "price": 7799,
+        "manufacturer": "Toshiba",
+        "purchasedAt": "2021-11-21"
+      },
+      {
+        "name": "SSD",
+        "model": "Apaser 2TB",
+        "price": 0,
+        "manufacturer": "Apaser",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "SSD",
+        "model": "256 DEXP",
+        "price": 0,
+        "manufacturer": "DEXP",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "SSD",
+        "model": "Intel 545s Series  256",
+        "price": 3590,
+        "manufacturer": "INTEL",
+        "purchasedAt": "2019-07-03"
+      },
+      {
+        "name": "SSD",
+        "model": "SATA накопитель HP S650 2tb",
+        "link": "https://www.dns-shop.ru/product/0fce237acdd7ed20/1920-gb-25-sata-nakopitel-hp-s650-345n1aaabb/",
+        "price": 10199,
+        "manufacturer": "HP",
+        "purchasedAt": "2019-07-03"
+      },
+      {
+        "name": "Охлаждение",
+        "model": "2x140 3x120 Aigo",
+        "price": 3250,
+        "manufacturer": "Aigo",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Блок питания",
+        "model": "DEEPCOOL DQ750",
+        "link": "https://www.dns-shop.ru/product/8f5a386d885f3332/blok-pitania-deepcool-dq750-dq750-m-v2l-cernyj/",
+        "price": 7999,
+        "manufacturer": "DEEPCOOL",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Корпус",
+        "model": "ZET GAMING Rare L2 WG белый",
+        "price": 3999,
+        "manufacturer": "ZET",
+        "purchasedAt": "purchasedDefault"
+      }
+    ]
+  },
+  "peripherals": {
+    "title": "Периферия ПК",
+    "items": [
+      {
+        "name": "Монитор 1",
+        "model": "Acer Nitro VG270UPbmiipx 144hz 2K",
+        "price": 25000,
+        "manufacturer": "Acer",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Монитор 2",
+        "model": "DELL S2721D 75hz 2K",
+        "price": 21017,
+        "manufacturer": "DELL",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Монитор 3",
+        "model": "27\" Монитор DEXP DF27H2 черный",
+        "price": 11499,
+        "manufacturer": "DELL",
+        "link": "https://www.dns-shop.ru/product/ab6dcf7e5e4aed20/27-monitor-dexp-df27h2-cernyj/",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Мышь",
+        "model": "Logitech MX Master 3",
+        "price": 8729,
+        "manufacturer": "Logitech",
+        "link": "",
+        "purchasedAt": "2021-12-20"
+      },
+      {
+        "name": "Клавиатура",
+        "model": "ZET GAMING Blade 2 ",
+        "link": "https://www.dns-shop.ru/product/221314ef3b461b80/klaviatura-provodnaa-zet-gaming-blade-2/",
+        "price": 6199,
+        "manufacturer": "ZET",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Клавиатура",
+        "model": "Кастомные кейкапы",
+        "price": 6199,
+        "manufacturer": "",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Клавиатура",
+        "model": "Механическая кнопка включения компьютера",
+        "price": 311,
+        "manufacturer": "",
+        "purchasedAt": "2024-10-12"
+      },
+      {
+        "name": "БП(ЗАМЕНА СТАНДАРТНЫЙ ШУМНЫЙ)",
+        "model": "Вентилятор для корпуса ID-Cooling 120x120mm 3pin 1250rpm Black",
+        "price": 443,
+        "manufacturer": "",
+        "purchasedAt": "2024-03-22"
+      },
+      {
+        "name": "Коврик",
+        "model": "Black for 80x30cm",
+        "price": 374,
+        "manufacturer": null,
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "StreamDeck Клавиатура",
+        "model": "MBox N4 Stream Deck С Ручкой Mirabox StreamDeck",
+        "price": 5573,
+        "manufacturer": null,
+        "purchasedAt": "2025-01-05"
+      },
+      {
+        "name": "Держатель мониторов",
+        "model": "NB F160",
+        "price": 2178,
+        "manufacturer": "NB",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Колонки",
+        "model": "Edifier R980T черный",
+        "price": 5199,
+        "manufacturer": "Edifier",
+        "purchasedAt": "purchasedDefault"
+      }
+    ]
+  },
+  "devices": {
+    "title": "Девайсы",
+    "items": [
+      {
+        "name": "Ноутбук",
+        "model": "Honor",
+        "price": 33000,
+        "manufacturer": "Honor",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Кресло",
+        "model": "EVERPROF LOTUS S10",
+        "price": 12500,
+        "manufacturer": "Everprof",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Веб-камера",
+        "model": "Microsoft LifeCam VX-2000",
+        "price": 2000,
+        "manufacturer": "Microsoft",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Камера",
+        "model": "SONY A6400",
+        "price": 87500,
+        "manufacturer": "SONY",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Наушники",
+        "model": "SONY WH-CH710N White",
+        "price": 7849,
+        "manufacturer": "SONY",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Микрофон",
+        "model": "Samson C01U PRO",
+        "price": 5500,
+        "manufacturer": "Samson",
+        "driverLink": "",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Телефон",
+        "model": "iPhone 11 Pro",
+        "price": 79999,
+        "manufacturer": "Apple",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Квадрокоптер",
+        "model": "DJI Mini SE",
+        "price": 25999,
+        "manufacturer": "DJI",
+        "purchasedAt": "2021-09-27"
+      },
+      {
+        "name": "Электронная книга",
+        "model": "DEXP SI Symbol",
+        "price": 3999,
+        "manufacturer": "DEXP",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Подсветка",
+        "model": "2xRGB + Круг + 3 штатива",
+        "price": 3200,
+        "manufacturer": null,
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Суфлер",
+        "model": "Суфлер (SITOOSHE)",
+        "price": 2064,
+        "manufacturer": "SITOOSHE",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Доп. свет",
+        "model": "Ulanzi VL49RGB",
+        "price": 2100,
+        "manufacturer": "Ulanzi",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Доп. свет",
+        "model": "Ulanzi палка",
+        "price": 2333,
+        "manufacturer": "Ulanzi",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Доп. свет",
+        "model": "Ulanzi меч",
+        "price": 2666,
+        "manufacturer": "Ulanzi",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Штатив камеры",
+        "model": "NA666 Tripod Stand",
+        "price": 1444,
+        "manufacturer": "KINGJOY",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Стабилизатор камеры",
+        "model": "FeiyuTech AK2000C",
+        "price": 14600,
+        "manufacturer": "FeiyuTech",
+        "purchasedAt": "purchasedDefault"
+      },
+      {
+        "name": "Геймпад",
+        "model": "MSI",
+        "price": 2499,
+        "manufacturer": null,
+        "link": "MSI",
+        "purchasedAt": "purchasedDefault"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0 --strictPort",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0 --port 4173"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-pagefind": "^0.4.14"
+  }
+}

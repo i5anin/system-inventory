@@ -1,11 +1,12 @@
-
 import DefaultTheme from 'vitepress/theme'
-import InventoryTable from './components/InventoryTable.vue'
-import type { Theme } from 'vitepress'
+import './styles/inventory.css'
+import InventoryRoot from './components/InventoryRoot.vue'
+import InventorySection from './components/InventorySection.vue'
 
 export default {
     ...DefaultTheme,
     enhanceApp({ app }) {
-        app.component('InventoryTable', InventoryTable)
+        app.component('InventoryRoot', InventoryRoot)
+        app.component('InventorySection', InventorySection)
     }
-} satisfies Theme
+}

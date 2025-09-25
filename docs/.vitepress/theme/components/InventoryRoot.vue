@@ -7,7 +7,7 @@
       <button class="btn" @click="setSort('purchasedAt')">по дате покупки</button>
       <button class="btn" @click="setSort('updatedAt')">по дате изменения</button>
       <span class="dir">{{ sort.state.sortAsc ? '▲' : '▼' }}</span>
-      <span class="grand"><strong>Итог по всем разделам:</strong> {{ nf.format(grandTotal) }}</span>
+      <span><strong>Итог по всем разделам:</strong> {{ nf.format(grandTotal) }}</span>
     </div>
 
     <InventorySection
@@ -23,11 +23,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import {computed} from 'vue'
 import InventorySection from './InventorySection.vue'
-import type { Section, SortKey } from './types'
-import { makeNumberFormatter } from '../utils/currency'
-import { useSort } from '../composables/useSort'
+import type {Section, SortKey} from './types'
+import {makeNumberFormatter} from '../utils/currency'
+import {useSort} from '../composables/useSort'
 
 const props = withDefaults(defineProps<{
   sections: Section[]

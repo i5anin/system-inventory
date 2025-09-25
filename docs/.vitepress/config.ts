@@ -1,4 +1,4 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { nav, sidebar } from './config/menu'
 import { search } from './config/search'
 import { i18n } from './config/i18n'
@@ -14,8 +14,6 @@ export default defineConfig({
         search,
         nav,
         sidebar,
-        ...i18n,
-        outline: [2, 6] as DefaultTheme.Config['outline'],
-        outlineTitle: 'Содержание'
+        ...i18n
     }
 })

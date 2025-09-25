@@ -61,32 +61,34 @@
       },
       {
         "name": "SSD",
-        "model": "Apaser 2TB",
-        "price": 0,
-        "manufacturer": "Apaser",
+        "model": "Apacer 2 ТБ (цена)",
+        "price": 9973,
+        "manufacturer": "Apacer",
         "purchasedAt": "purchasedDefault"
       },
       {
         "name": "SSD",
-        "model": "256 DEXP",
-        "price": 0,
+        "model": "DEXP L3 M.2 NVMe",
+        "price": 2999,
         "manufacturer": "DEXP",
-        "purchasedAt": "purchasedDefault"
+        "link": "https://www.dns-shop.ru/product/13da252f14173332/m2-nvme-nakopitel-dexp-l3-epa256gnlnxe30cd-drl3/",
+        "purchasedAt": "2021-04-03"
       },
       {
         "name": "SSD",
         "model": "Intel 545s Series  256",
         "price": 3590,
         "manufacturer": "INTEL",
+        "link": "https://www.dns-shop.ru/product/e183d9588aec3330/25-sata-nakopitel-intel-545s-series-ssdsc2kw256g8xt/",
         "purchasedAt": "2019-07-03"
       },
       {
         "name": "SSD",
-        "model": "SATA накопитель HP S650 2tb",
+        "model": "HP S650 1920 ГБ",
         "link": "https://www.dns-shop.ru/product/0fce237acdd7ed20/1920-gb-25-sata-nakopitel-hp-s650-345n1aaabb/",
         "price": 10199,
         "manufacturer": "HP",
-        "purchasedAt": "2019-07-03"
+        "purchasedAt": "2024-02-28"
       },
       {
         "name": "Охлаждение",
@@ -107,8 +109,8 @@
         "name": "Корпус",
         "model": "ZET GAMING Rare L2 WG белый",
         "price": 3999,
-        "manufacturer": "ZET",
-        "purchasedAt": "purchasedDefault"
+        "manufacturer": "ZET GAMING",
+        "purchasedAt": "2021-12-18"
       }
     ]
   },

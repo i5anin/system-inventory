@@ -5,12 +5,12 @@ import { i18n } from './config/i18n'
 
 export default defineConfig({
     lang: 'ru-RU',
-    title: 'Документация ЧПУ',
-    description: 'Регламенты и инструкции для операторов станков ЧПУ',
+    title: 'Мои устройства (title)',
+    description: 'Мои устройства (description)',
     cleanUrls: true,
     lastUpdated: true,
     themeConfig: {
-        siteTitle: 'Документация',
+        siteTitle: 'Мои устройства',
         search,
         nav,
         sidebar,

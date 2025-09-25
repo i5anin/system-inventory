@@ -1,4 +1,5 @@
-// .vitepress/search.ts
+import type { DefaultTheme } from 'vitepress'
+
 export const search = {
     provider: 'local',
     options: {
@@ -24,4 +25,4 @@ export const search = {
             }
         }
     }
-}
+} as const satisfies NonNullable<DefaultTheme.Config['search']>

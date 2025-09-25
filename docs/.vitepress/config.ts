@@ -3,6 +3,7 @@ import { nav, sidebar } from './config/menu'
 import { search } from './config/search'
 import { i18n } from './config/i18n'
 
+// noinspection JSUnusedGlobalSymbols
 export default defineConfig({
     lang: 'ru-RU',
     title: 'Мои устройства (title)',

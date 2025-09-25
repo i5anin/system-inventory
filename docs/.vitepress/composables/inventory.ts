@@ -1,5 +1,21 @@
-import type {Section, Item as TableItem} from '../theme/components/InventoryTable.vue'
+// --- Типы, заменяющие импорт ---
+export type TableItem = {
+    name: string
+    model: string
+    price: number
+    manufacturer: string | null
+    link: string
+    purchasedAt: string
+    updatedAt: string
+}
 
+export type Section = {
+    title: string
+    declaredTotal?: number | null
+    items: TableItem[]
+}
+
+// --- Исходные типы ---
 export type RawItem = {
     name: string
     model: string
@@ -21,6 +37,8 @@ export type RawData = {
     peripherals?: Omit<RawSection, 'declaredTotal'>
     devices?: Omit<RawSection, 'declaredTotal'>
 }
+
+// --- Логика ---
 
 const purchasedDefault = ''
 
@@ -56,12 +74,12 @@ export const buildSections = (raw: RawData) => {
     }
 
     const peripherals: Section | null = raw.peripherals
-        ? {title: raw.peripherals.title, items: raw.peripherals.items.map(normalizeItem)}
+        ? { title: raw.peripherals.title, declaredTotal: null, items: raw.peripherals.items.map(normalizeItem) }
         : null
 
     const devices: Section | null = raw.devices
-        ? {title: raw.devices.title, items: raw.devices.items.map(normalizeItem)}
+        ? { title: raw.devices.title, declaredTotal: null, items: raw.devices.items.map(normalizeItem) }
         : null
 
-    return {systemUnit, peripherals, devices}
+    return { systemUnit, peripherals, devices }
 }
